@@ -1,0 +1,107 @@
+.best-main {
+  width: 100%;
+  background-color: #f8f9fc;
+  .best-innner {
+    padding-top: 80px;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .best-div1 {
+      width: 600px;
+
+      h1 {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 70px;
+        color: #000f24;
+
+        @media (max-width: 500px) {
+          font-size: 24px;
+          line-height: 36px;
+        }
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        color: #a2a2a2;
+        margin-top: 16px;
+        margin-bottom: 32px;
+        width: 600px;
+
+        @media (max-width: 500px) {
+          font-size: 8px;
+          line-height: 16px;
+          width: 250px;
+        }
+      }
+
+      .best-div1-img {
+        height: 460px;
+        img {
+          height: 100%;
+          width: 100%;
+        }
+
+        @media (max-width: 500px) {
+          width: 320px;
+          height: 260px;
+        }
+      }
+
+      @media (max-width: 500px) {
+        display: flex;
+        //justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      @media (max-width: 500px) {
+        width: 300px;
+        text-align: center;
+      }
+    }
+
+    .best-div2 {
+      width: 570px;
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(2, 1fr);
+
+      .bestCard {
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 32px 24px;
+
+        h1 {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 22px;
+        }
+
+        p {
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 28px;
+          color: #a2a2a2;
+        }
+      }
+
+      @media (max-width: 500px) {
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(1, 300px);
+        width: 300px;
+      }
+    }
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
+  }
+}

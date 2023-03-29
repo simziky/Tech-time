@@ -1,0 +1,98 @@
+.community-main {
+  background-color: #004db3;
+
+  .community-inner {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    .community-div1 {
+      text-align: center;
+      .community-div1-heading {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        /* identical to box height */
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+
+      h1 {
+        font-weight: 700;
+        font-size: 56px;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      .community-div1-subheading {
+        font-weight: 500;
+        font-size: 16px;
+        color: #ffffff;
+        margin-top: 16px;
+        margin-bottom: 31px;
+      }
+
+      @media (max-width: 500px) {
+        .community-div1-heading,
+        .community-div1-subheading {
+          font-size: 8px;
+          line-height: 11px;
+        }
+
+        h1 {
+          font-size: 24px;
+          line-height: 30px;
+        }
+      }
+    }
+
+    .community-div2 {
+      div {
+        width: 800px;
+        margin: 0 auto;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      @media (max-width: 500px) {
+        div {
+          width: 300px;
+        }
+      }
+    }
+
+    .community-div3 {
+      margin-top: 40px;
+      div {
+        display: flex;
+        justify-content: center;
+
+        button {
+          padding: 16px 32px;
+          height: 54px;
+          color: #004db3;
+          border: none;
+          background: #ffffff;
+          border-radius: 4px;
+
+          @media (max-width: 500px) {
+            padding: 8px 16px;
+            height: 37px;
+            font-size: 15px;
+            line-height: 11px;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 500px) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}
