@@ -140,7 +140,7 @@ const Pcourse = () => {
             <div key={id} className="course-card-main">
               <div className="course-card-img">
                 {" "}
-                <img src={courseCards.img} alt="course-image" />{" "}
+                <img src={courseCards.img} alt="course" />{" "}
               </div>
 
               <div className="course-card-rate-tag">
